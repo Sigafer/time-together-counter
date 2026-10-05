@@ -1,0 +1,13 @@
+# Altium documents are binary or must keep their line endings
+*.SchDoc   binary
+*.PcbDoc   binary
+*.SchLib   binary
+*.PcbLib   binary
+*.IntLib   binary
+*.PrjPcb   text eol=crlf
+*.OutJob   text eol=crlf
+*.pas      text eol=crlf
+*.step     binary
+*.STEP     binary
+*.png      binary
+*.jpg      binary

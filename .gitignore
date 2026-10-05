@@ -1,0 +1,35 @@
+# Altium Designer generated files
+History/
+__Previews/
+Project Logs for */
+Project Outputs for */
+Project Outputs/
+*.PrjPcbStructure
+*.SchDocPreview
+*.PcbDocPreview
+*.LibPkgStructure
+*.$$$
+*.~*
+~$*
+*.bak
+*.Bak
+*.LOG
+Status Report.txt
+Design Rule Check - *.html
+Design Rule Verification Report*.html
+.~lock.*
+
+# Fabrication outputs (attach to GitHub releases instead)
+*.zip
+
+# OS / editor
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+__pycache__/
+
+# Firmware build output
+firmware/**/Debug/
+firmware/**/Release/
+firmware/**/build/
