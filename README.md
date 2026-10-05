@@ -38,3 +38,10 @@ docs/                       schematic PDF and other documentation
 artwork/                    line art for the black art side of the board (later)
 mechanical/                 3D-printed back cover (later)
 ```
+
+## License
+
+   Copyright 2026 Csaba Zsigmond
+
+   This hardware design is licensed under the CERN Open Hardware Licence
+   Version 2 – Permissive (CERN-OHL-P v2). See [LICENSE](LICENSE).
