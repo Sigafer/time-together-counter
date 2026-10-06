@@ -1,6 +1,6 @@
 # Time-Together Counter
 
-A pocket-watch-sized PCB that shows time passed, from a past moment, in the format `YY:DDD:HH:MM:SS`. The 1.3" OLED stays dark until someone double-taps the device. It runs standalone (no phone, no Wi-Fi) from a small LiPo charged over USB-C every few months.
+A pocket-watch-sized PCB that shows time passed, from a past moment, in the format `YY:DDD:HH:MM:SS`. The 1.3" OLED (SH1106 128×64 I²C) stays dark until someone double-taps the device. It runs standalone from a small LiPo charged over USB-C every few months.
 
 Designed in Altium Designer by Zsigmond Csaba.
 
