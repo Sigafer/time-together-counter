@@ -4,6 +4,14 @@ A pocket-watch-sized PCB that shows time passed, from a past moment, in the form
 
 Designed in Altium Designer by Zsigmond Csaba.
 
+![PCB 3D view](docs/pcb_3d.png)
+
+> [!TIP]
+> **Schematic and PCB layout:** no Altium needed. Open the PDFs in the [`docs`](docs/) folder:
+> - 📄 [Schematic (PDF)](docs/schematic.pdf)
+> - 📄 [PCB layout (PDF)](docs/layout.pdf)
+> - 📋 [Bill of materials (CSV)](docs/BOM.csv)
+
 ## How it works
 
 A low-power STM32 sleeps until the accelerometer detects a double-tap in hardware. It then reads the real-time clock, computes the time elapsed since a fixed start timestamp, and shows it on the OLED for about 5 seconds before going back to sleep. The RTC keeps counting the whole time, so the count survives resets and never drifts more than a few seconds per year.
