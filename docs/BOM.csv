@@ -1,17 +1,20 @@
-Name,Description,Designator,Footprint,LibRef,Quantity
-
-"Capacitor 4.7µF +/-20% 10V 0603","Chip Capacitor, 4.7µF +/-20%, 10V, 0603, Thickness 1 mm","C1, C2, C21","CAPC0603(1608)100_L","CMP-001-00076-4","3"
-"Capacitor 1µF +/-20% 10V 0402","Chip Capacitor, 1µF +/-20%, 10V, 0402, Thickness 0.6 mm","C3, C4","CAPC0402(1005)60_L","CMP-001-00063-3","2"
-"Capacitor 100nF +/-20% 10V 0402","Chip Capacitor, 100nF +/-20%, 10V, 0402, Thickness 0.6 mm","C6, C20, C22, C23, C30, C40","CAPC0402(1005)60_L","CMP-001-00061-3","6"
-"Capacitor 10µF +/-20% 10V 0603","Chip Capacitor, 10µF +/-20%, 10V, 0603, Thickness 1 mm","C41","CAPC0603(1608)100_L","CMP-001-00075-4","1"
-"USB4125-GF-A-0190","Connector","J1","USB4125GFA0190","USB4125-GF-A-0190","1"
-"SM02B-SRSS_TB__LF__SN_","Connector","J2","SM02BSRSSTBLFSN","SM02B-SRSS-TB__LF__SN_","1"
-"5D6KR2J","5K6 0.063W 5% 0402 (1005 Metric)  SMD","R1, R2","RESC0402(1005)_L","CMP-009-00108-2","2"
-"10KR2F","10K 0.063W 1% 0402 (1005 Metric)  SMD","R3, R4, R20, R30","RESC0402(1005)_L","CMP-009-00066-2","4"
-"Resistor 1M +/-1 % 0402 63 mW","Chip Resistor, 1 MOhms, +/-1 %, 63 mW, -55 to 155 degC, 0402","R7, R8","RESC0402(1005)_L","CMP-009-00165-3","2"
-"4D7KR2F","4K7 0.063W 1% 0402 (1005 Metric)  SMD","R40, R41","RESC0402(1005)_L","CMP-009-00105-2","2"
-"MCP73831T-2ACI_OT","Integrated Circuit","U1","SOT95P270X145-5N","MCP73831T-2ACI_OT","1"
-"TPS7A0233DBVR","Integrated Circuit","U2","SOT95P280X145-5N","TPS7A0233DBVR","1"
-"STM32L031K6U6","Integrated Circuit","U3","QFN50P500X500X60-33N-D","STM32L031K6U6","1"
-"RV-3028-C7","Crystal or Oscillator","U4","RV3028C732768kHz1ppmTAQC","RV-3028-C7","1"
-"LIS2DW12TR","Accelerometer X, Y, Z Axis Â±2g, 4g, 8g, 16g 400Hz 12-LGA _2x2_","U5","LGA12R50P4X4_200X200X70","LIS2DW12TR","1"
+Comment,Description,Designator,Footprint,Quantity,Manufacturer,Manufacturer Part Number,LCSC,Fitted
+4.7uF,"Ceramic capacitor 4.7uF 10V X5R 0603","C1, C2, C21",0603,3,Yageo,CC0603KRX5R6BB475,C109456,Yes
+1uF,"Ceramic capacitor 1uF 25V X5R 0402","C3, C4",0402,2,Samsung Electro-Mechanics,CL05A105KA5NQNC,C52923,Yes
+100nF,"Ceramic capacitor 100nF 16V X7R 0402","C6, C20, C22, C23, C30, C40",0402,6,Yageo,CC0402KRX7R7BB104,C60474,Yes
+10uF,"Ceramic capacitor 10uF 10V X5R 0603",C41,0603,1,Samsung Electro-Mechanics,CL10A106KP8NNNC,C19702,Yes
+20pF C0G,"Ceramic capacitor 20pF 50V C0G 0402, RTC crystal load (OSCI)",C31,0402,1,FH,0402CG200J500NT,C1554,Yes
+5.1k,"Resistor 5.1k 1% 0402, USB-C CC pull-down","R1, R2",0402,2,UNI-ROYAL,0402WGF5101TCE,C25905,Yes
+10k,"Resistor 10k 1% 0402","R3, R4, R20",0402,3,UNI-ROYAL,0402WGF1002TCE,C25744,Yes
+1M,"Resistor 1M 1% 0402, battery divider","R7, R8",0402,2,UNI-ROYAL,0402WGF1004TCE,C26083,Yes
+4.7k,"Resistor 4.7k 1% 0402, I2C pull-up","R40, R41",0402,2,UNI-ROYAL,0402WGF4701TCE,C25900,Yes
+MCP73831T-2ACI/OT,"LiPo charger 4.2V, 100mA",U1,SOT-23-5,1,Microchip,MCP73831T-2ACI/OT,C424093,Yes
+TPS7A0233DBVR,"LDO 3.3V 200mA, 25nA Iq",U2,SOT-23-5,1,Texas Instruments,TPS7A0233DBVR,C5142805,Yes
+STM32L031K6U6,"MCU Cortex-M0+ 32kB flash",U3,UFQFPN-32 5x5,1,STMicroelectronics,STM32L031K6U6TR,C2969821,Yes
+BM8563ESA,"RTC I2C (PCF8563-compatible)",U4,SOP-8,1,Gatemode,BM8563ESA,C269877,Yes
+LIS2DW12TR,"Accelerometer, double-tap wake",U5,LGA-12 2x2,1,STMicroelectronics,LIS2DW12TR,C189624,Yes
+32.768kHz 12.5pF,"Crystal 32.768kHz 12.5pF +/-20ppm",Y1,3215 (3.2x1.5mm),1,Epson,Q13FC13500004,C32346,Yes
+USB4125-GF-A,"USB-C receptacle, power only (6P)",J1,USB4125-GF-A,1,GCT,USB4125-GF-A,C3151650,Yes
+SM02B-SRSS-TB(LF)(SN),"JST SH 2-pin side entry, LiPo",J2,SM02B-SRSS-TB,1,JST,SM02B-SRSS-TB(LF)(SN),C160402,Yes
+TC2030-IDC-NL,"SWD programming pads (no part, cable only)",J3,TC2030-IDC-NL,1,Tag-Connect,TC2030-IDC-NL,,No
+OLED header,"1x4 2.54mm header, comes with SH1106 OLED module, hand-soldered",J4,1x4 THT 2.54mm,1,,,,No
